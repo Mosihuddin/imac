@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook</title>
+    <!-- taiwind css  -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="mx-auto w-3/4">
+        <section class="mt-12">
+            <div class="grid grid-cols-2 ">
+                <div class=" ">
+                    <img class=" w-80  " src="images/mac.png" alt="" srcset="">
+                </div>
+                <div>
+                    <h1 class="font-normal text-4xl	">
+                        Customize your blue 24inch imac with Apple m1 chip
+                    </h1>
+
+                    <div>
+                        <h2 class="mt-4">The Apple M1 is an ARM-based system on a chip. It was designed by Apple Inc. as
+                            a central
+                            processing unit and graphics processing unit for its Macintosh computers and iPad Pro
+                            tablets</h2>
+                    </div>
+                    <div class="mt-3">
+                        <h4 class="text-2xl mb-2">
+                            Memory
+                        </h4>
+                        <button id="memory8" class="rounded bg-gray-200 px-4"> 8gb Unified Memory</button>
+                        <button id="memory16" class="rounded bg-gray-200 px-4"> 16gb Unified Memory</button>
+
+                    </div>
+                    <div class="mt-8">
+                        <h4 class="text-2xl mb-2 mx-auto">
+                            Storage
+                        </h4>
+                        <button id="ssd256" class="rounded bg-gray-200 px-2">256Gb Ssd Storage</button>
+                        <button id="ssd512" class="rounded bg-gray-200 px-2">512Gb Ssd Storage</button>
+                        <button id="ssd1t" class="rounded bg-gray-200 px-2">1TB Ssd Storage</button>
+
+                    </div>
+                    <div class="mt-5">
+                        <h4 class="text-2xl mb-2">
+                            Choose Your Delivery Option
+                        </h4>
+                        <button id="free-shipping" class="rounded bg-gray-200 px-2"> Fiday,Aug25 free prime
+                            Delivery</button>
+                        <button id="paid-shipping" class="rounded bg-gray-200 px-2">Fiday,Aug21
+                            Delivery
+                            charge
+                            $20</button>
+
+                    </div>
+                    <div class="grid grid-cols-2 mt-12  ">
+                        <div>
+                            <h6>Best Price</h6>
+                        </div>
+                        <div>
+                            <h6>$1299</h6>
+                        </div>
+                        <div>
+                            <h6>Extra Memory cost</h6>
+                        </div>
+                        <div>
+                            <h6>$<span id="extra-memory-cost">0</span></h6>
+                        </div>
+
+
+                        <div>
+                            <h6>Extra Storage cost</h6>
+                        </div>
+                        <div>
+                            <h6> $<span id="ssd-cost">0</span></h6>
+                        </div>
+
+
+                        <div>
+                            <h6>Delivery Charge</h6>
+                        </div>
+                        <div>
+                            <h6> $<span id="delivery-cost">0</span></h6>
+                        </div>
+
+
+                        <div>Total Price</div>
+                        <div>
+                            <h6>$<span id="total-price">00</span></h6>
+                        </div>
+                        <div class=" mt-3">
+                            <h2 class="text-2xl">Add Promo</h2>
+
+                            <input id="promo-code" class="rounded border-2 border-gray-500 w-3/4  mb-5 px-2" type="text"
+                                placeholder="add-here">
+                            <button id="button-promo" class="rounded bg-gray-200 px-2" type="submit">Submit</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+    </header>
+    <!-- footer  -->
+    <footer>
+        <div class="text-center">
+            <hr class="mt-2">
+            <h3 class="text-4xl mt-2">Total Price:$<span id="final-total">1299</span></h3>
+        </div>
+    </footer>
+    <!-- javaScript -->
+    <script src="js/cart.js"></script>
+
+</body>
+
+</html>
